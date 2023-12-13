@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ShopLane </title>
+</head>
+<link rel="stylesheet" href="./grid.css">
+
+<body>
+    <header>
+        <h1>ShopLane</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button onclick="searchProducts()">Search</button>
+        </div>
+        <div class="cart-icon" onclick="openCartPage()">
+            <img src="cart-icon.png" alt="Cart">
+            <span>Cart</span>
+        </div>
+    </header>
+    <div> 
+        <section id="men-section">
+            <h2>Men</h2>
+            <!-- Men's products listing goes here -->
+        </section>
+
+        <section id="women-section">
+            <h2>Women</h2>
+            <!-- Women's products listing goes here -->
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
